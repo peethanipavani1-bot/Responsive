@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Landing Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .hero {
+            padding: 50px;
+            text-align: center;
+            background: #f4f4f4;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .feature-box {
+            width: 30%;
+            background: #ddd;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+        }
+        .testimonials {
+            background: #eee;
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        @media(max-width: 768px) {
+            .feature-box {
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>My Startup</h1>
+</header>
+
+<section class="hero">
+    <h2>Welcome to Our Product</h2>
+    <p>We provide the best solutions for your needs.</p>
+</section>
+
+<section class="features">
+    <div class="feature-box">Feature 1</div>
+    <div class="feature-box">Feature 2</div>
+    <div class="feature-box">Feature 3</div>
+</section>
+
+<section class="testimonials">
+    <h2>Testimonials</h2>
+    <p>"Great service!"</p>
+</section>
+
+<footer>
+    <p>© 2026 My Startup</p>
+</footer>
+
+</body>
+</html>
+
+output:
+----------------------------------
+        My Startup  (Header)
+
+   Welcome to Our Product
+ We provide the best solutions
+
+ [Feature 1]  [Feature 2]  [Feature 3]
+
+        Testimonials
+       "Great service!"
+
+        © 2026 My Startup (Footer)
+----------------------------------
+---
